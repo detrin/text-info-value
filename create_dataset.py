@@ -30,7 +30,7 @@ for topic in os.listdir(base_dir):
                         'topic': topic,
                         'youtube_url': vide_url,
                         'youtube_title': video_title,
-                        'fileText': content
+                        'subtitles': content
                     })
                     unique_topics.add(topic)
                     # print(filename)
